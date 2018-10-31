@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Social">
+    <item
+            android:id="@+id/ndvi"
+            android:title="NDVI"
+            app:actionViewClass="android.widget.Switch"
+    />
+
+    <item
+            android:id="@+id/oopt"
+            android:title="ООПТ"
+            app:actionViewClass="android.widget.Switch"
+    />
+
+    <item
+            android:id="@+id/not_allowed"
+            android:title="Вырубка запрещена"
+            app:actionViewClass="android.widget.Switch"
+    />
+
+    <item
+            android:id="@+id/moratory"
+            android:title="Моратории"
+            app:actionViewClass="android.widget.Switch"
+    />
+
+    <item
+            android:id="@+id/rentals"
+            android:title="Арендаторы"
+            app:actionViewClass="android.widget.Switch"
+    />
+    </item>
+
+
+</menu>
